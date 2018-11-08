@@ -1,9 +1,6 @@
 
 package Exercise_5;
 
-import java.util.Scanner;
-
-
 public class Lab9_Ex5 {
 
     public static void main(String[] args) {
@@ -13,9 +10,10 @@ public class Lab9_Ex5 {
         System.out.println(sum);
     }
    
-    
+    /*This is a recursive method that
+    * retuns the sum of an array...
+    */
     public static int arraySum(int[] a,int num){
-        
         if(num > 0){
             return a[num] + arraySum(a, num - 1);
         }
